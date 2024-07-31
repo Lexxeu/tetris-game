@@ -7,7 +7,7 @@ body {
   background-color: #222;
   color: #fff;
   font-family: Arial, sans-serif;
-  background-image: url(/build/img/wp2675338-tetris-wallpaper.jpg);
+  background-image: url(img/wp2675338-tetris-wallpaper.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,7 +23,7 @@ body {
   border: 2px solid #fff;
   background-color: #000;
   fill-opacity: 50%;
-  background-image: url(/build/img/wp2675338-tetris-wallpaper.jpg);
+  background-image: url(img/wp2675338-tetris-wallpaper.jpg);
 
   background-repeat: no-repeat;
   background-position: top;
