@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background-image: url(/build/img/wp2675338-tetris-wallpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#game-container {
+  text-align: center;
+  display: flex;
+  gap: 1.2rem;
+}
+
+#gameCanvas {
+  border: 2px solid #fff;
+  background-color: #000;
+  fill-opacity: 50%;
+  background-image: url(/build/img/wp2675338-tetris-wallpaper.jpg);
+
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#previewCanvas {
+  border: 2px solid #fff; /* Dark gray border */
+  background: 000; /* Light gray background */
+  margin: 20px;
+}
+
+#controls {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 20px;
+}
